@@ -3,8 +3,8 @@
 
 function countNeighborhood(configuration, rowIndex, columnIndex) {
   let count = 0
-  for (let i = rowIndex - 1; i < (rowIndex + 1); i++) {
-    for (let j = columnIndex - 1; j < columnIndex + 1; j++) {
+  for (let i = rowIndex - 1; i <= (rowIndex + 1); i++) {
+    for (let j = columnIndex - 1; j <= columnIndex + 1; j++) {
       if (configuration[i] && configuration[i][j]) {
         count += configuration[i][j]
       }

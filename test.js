@@ -8,4 +8,5 @@ tap.test('kata3', assert => {
   const expectedConfiguration = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
   assert.strictSame(iterate(configuration), expectedConfiguration)
+  assert.end()
 })

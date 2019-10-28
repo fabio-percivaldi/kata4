@@ -1,0 +1,23 @@
+{
+  "name": "kata3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.26.1",
+    "ramda-adjunct": "^2.18.0"
+  },
+  "devDependencies": {
+    "@mia-platform/eslint-config-mia": "^2.0.0",
+    "eslint": "^5.3.0",
+    "tap": "^14.2.3"
+  },
+  "eslintConfig": {
+    "extends": "@mia-platform/eslint-config-mia"
+  }
+}
